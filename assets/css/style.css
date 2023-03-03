@@ -1,0 +1,80 @@
+.hero {
+    height: 300px;
+    width: 100%; 
+    margin-bottom: 25px;
+    background-image: url("../images/dori.JPG");
+    background-size: cover;
+    background-position: center;
+    
+  }
+  body {
+    height: 100vh;
+    
+  }
+.row {
+    display:flex;
+}
+.portfolio a {
+    height: 200px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    border: 10px turquoise;
+    padding: 5px;
+    
+  }
+  #site0 {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/IMG_3633.JPG");
+  }
+  #site1 {
+    display: flex;
+    height: 200px;
+    width: 50%;
+    background-image: url("../images/bullock2.jpg");
+  }
+
+  #site2 {
+    display: flex;
+    height: 200px;
+    width: 50%;
+    background-image: url("../images/IMG_3623.JPG");
+  }
+
+  #site3 {
+    display: flex;
+    height: 200px;
+     width: 50%; 
+    background-image: url("../images/IMG_3626.JPG");
+  }
+
+  #site4 {
+    display: flex;
+    height: 200;
+     width: 50%; 
+    background-image: url("../images/IMG_3639.JPG");
+  }
+  .portfolio {
+    position:relative;
+  }
+  .captions {
+    position:absolute;
+    border:100px;
+    background-color:aqua
+  }
+  /* Header section styling */
+  header h1 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  
+  header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  

@@ -12,14 +12,32 @@
     
   }
 .row {
-   
     display: flex;
   flex-direction: row;
 }
+
+.row p {
+    /* margin:0 0 0 190px; */
+}
 .row2 {
-    margin:0 0 0 200px;
+    /* margin:0 0 0 90px;  */
     display: flex;
   flex-direction: row;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+  }
+.row3 p {
+    /* margin:0 0 0 10px; */
+}
+.row3 span {
+/* margin: 0 0 0 100px; */
+ padding: 10px;
+}
+.details {
+    margin: 25px 0px 0px 70px;
 }
 .portfolio a {
     margin:0 0 0 200px;
@@ -76,20 +94,47 @@
   .portfolio {
     position:relative;
   }
-  .captions {
-    position:absolute;
-    border:100px;
-    background-color:aqua
+  .row .captions {
+     position:absolute; 
+    border:20px;
+    background-color:aqua;
+    
   }
+#surfreport {
+    left: 430px;
+    top: 70px;
+}
+#ledwall {
+    left: 430px;
+    top: 270px;
+}
+#calculator {
+    left: 945px;
+    top: 270px;
+}
+
+#runbuddy {
+    left: 945px;
+    
+}
+  .row2 .captions {
+    position:absolute; 
+    left: 430px;
+   border:20px;
+   background-color:aqua;
+   
+ }
+
+
   /* Header section styling */
   header h1 {
     display: inline-block;
     font-size: 48px;
   }
-  
-  h2 {
-    display: inline;
-    font-size:24px;
+
+
+  h3 p {
+    font-size: 11px;
   }
   header nav {
     padding-top: 15px;
@@ -101,5 +146,10 @@
   
   .navbar {
     font-size: 12px;
-    display: block;
+    display: inline;
   }
+  .sidepanel h2{
+    margin: 0 200px 0 0;
+    display: inline;
+    font-size:24px;
+}

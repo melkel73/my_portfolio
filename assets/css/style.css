@@ -12,15 +12,16 @@
     
   }
 .row {
-    display: flex;
+  
+  display: flex;
   flex-direction: row;
 }
 
-.row p {
-    /* margin:0 0 0 190px; */
+.aboutme p {
+    margin: 25px 0 0 90px;
 }
 .row2 {
-    /* margin:0 0 0 90px;  */
+    margin:0 0 0 190px; 
     display: flex;
   flex-direction: row;
 }
@@ -32,15 +33,28 @@
 .row3 p {
     /* margin:0 0 0 10px; */
 }
-.row3 span {
-/* margin: 0 0 0 100px; */
- padding: 10px;
+.details span {
+margin: 0 0 0 50px;
+text-decoration: underline;
+ /* padding: 10px; */
+ justify-content: space-between;
 }
 .details {
+  display: inline;
+
     margin: 25px 0px 0px 70px;
+    justify-content: space-between;
+}
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
 }
 .portfolio a {
-    margin:0 0 0 200px;
+    margin:0 0 0 0px;
     height: 200px;
     display: flex;
     background-size: cover;
@@ -58,7 +72,11 @@
     border-width: 2px;
     
   }
+  .portfolio .row a {
+    margin: 0px 0px 0px 100px;
+  }
   #site0 {
+    
     display: flex;
     height: 200px;
     width: 100%;
@@ -101,21 +119,27 @@
     
   }
 #surfreport {
-    left: 430px;
+    left: 190px;
     top: 70px;
 }
 #ledwall {
-    left: 430px;
+    left: 190px;
     top: 270px;
 }
 #calculator {
-    left: 945px;
+    left: 740px;
     top: 270px;
 }
 
 #runbuddy {
-    left: 945px;
+   top: 500px;
+    left: 740px;
     
+}
+#pastel {
+  top: 500px;
+  left: 190px;
+  
 }
   .row2 .captions {
     position:absolute; 
@@ -131,7 +155,9 @@
     display: inline-block;
     font-size: 48px;
   }
-
+h2 { 
+  display: inline;
+}
 
   h3 p {
     font-size: 11px;
@@ -149,7 +175,7 @@
     display: inline;
   }
   .sidepanel h2{
-    margin: 0 200px 0 0;
+    margin: 0px 200px 0px 0px;
     display: inline;
     font-size:24px;
 }

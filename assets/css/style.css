@@ -11,6 +11,12 @@
     height: 100vh;
     
   }
+  header img {
+    
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+  }
 .row {
   
   display: flex;
@@ -151,8 +157,12 @@ footer {
 
 
   /* Header section styling */
+
   header h1 {
-    display: inline-block;
+    align-content: normal;
+    display: inline-flex;
+    position: absolute;
+    left: 190px;
     font-size: 48px;
   }
 h2 { 
@@ -163,7 +173,7 @@ h2 {
     font-size: 11px;
   }
   header nav {
-    padding-top: 15px;
+    padding-top: 1px;
     margin-right: 20px;
     float: right;
     font-family: Geneva, Tahoma, sans-serif;

@@ -7,6 +7,15 @@
     background-position: center;
     
   }
+
+  .header1 h2 {
+    float: right;
+    background-color: aqua;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 55px 0px 0px 0px;
+  }
   body {
     height: 100vh;
     

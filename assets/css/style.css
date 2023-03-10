@@ -3,11 +3,14 @@
     width: 100%; 
     margin-bottom: 25px;
     background-image: url("../images/dori.JPG");
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+   
     
   }
-
+  .navbar li {
+    display: inline;
+    
+  }
   .header1 h2 {
     float: right;
     background-color: aqua;
@@ -36,6 +39,7 @@
     margin: 25px 0 0 90px;
 }
 .row2 {
+  /* position: relative; */
     margin:0 0 0 190px; 
     display: flex;
   flex-direction: row;
@@ -98,6 +102,7 @@ footer {
     background-image: url("../images/IMG_3633.JPG");
   }
   #site1 {
+    position:relative;
     display: flex;
     height: 200px;
     width: 50%;
@@ -105,6 +110,7 @@ footer {
   }
 
   #site2 {
+    position:relative;
     display: flex;
     height: 200px;
     width: 50%;
@@ -112,6 +118,7 @@ footer {
   }
 
   #site3 {
+    position:relative;
     display: flex;
     height: 200px;
      width: 50%; 
@@ -119,6 +126,7 @@ footer {
   }
 
   #site4 {
+    position:relative;
     display: flex;
     height: 200px;
      width: 50%; 
@@ -137,28 +145,32 @@ footer {
     left: 190px;
     top: 270px;
 }
-#ledwall {
-    left: 190px;
-    top: 470px;
+/* #ledwall {
+  float:left;
+    left: 0px;
+    top: 100px;
 }
 #calculator {
-    left: 740px;
-    top: 470px;
+  left: 0px;
+    top: 100px;
 }
 
 #runbuddy {
-   top: 700px;
-    left: 740px;
+
+  left: 0px;
+  top: 100px;
     
-}
-#pastel {
-  top: 700px;
-  left: 190px;
+} */
+/* #pastel {
+  left: 0px;
+  top: 100px;
   
-}
-  .row2 .captions {
+} */
+  .captions {
+    left: 0px;
+    top: 90px;
     position:absolute; 
-    left: 430px;
+  color: blue;
    border:20px;
    background-color:aqua;
    
